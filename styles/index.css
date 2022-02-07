@@ -18,9 +18,11 @@
 
 
 .header{
-    position: relative;
+    position: fixed;
     display: flex;
     width: 100%;
+    z-index: 2;
+    background: white;
 }
 
 .company-details{
@@ -67,6 +69,74 @@
     color: #8F8F8F;
     text-decoration: none;
 }
+
+
+
+
+/* main */
+
+.main{
+    position: relative;
+}
+
+.backgroundPic{
+    position: relative;
+    width: 100%;
+    background-image: url("../images/bg7.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 950px;
+    display: flex;
+}
+
+.phone_pic{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.phone_pic img{
+    width: 400px;
+}
+
+
+
+.right-details{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.info_div{
+    color: #FFFFFF;
+    width: 80%;
+    top: 800px;
+}
+
+.info1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: 150px;
+}
+
+.info2{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.info3{
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 70px;
+}
+
+/* footer */
 
 .footer{
     background-color : #2E2E2F;
