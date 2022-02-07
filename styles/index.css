@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .full-page{
     position: absolute;
     width: 100%;
@@ -10,4 +14,78 @@
     max-width: 1920px;
     margin: 0 auto;
     height: 90px;
+}
+
+
+.header{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.company-details{
+    position: relative;
+    width: 40%;
+    display: flex;
+    color: #FF8341;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-details img {
+    width: 35px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+ 
+.links{
+    position: relative;
+    width: 50%;
+}
+
+.app{
+    color: #FF8341;
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header ul li{
+    list-style: none;
+    font-size: 19px;
+    margin: 14px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.header ul a{
+    font-size: 20px;
+    color: #8F8F8F;
+    text-decoration: none;
+}
+
+.footer{
+    background-color : #2E2E2F;
+    width: 100%;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+.footer_div{
+    display: flex;
+}
+
+.footer_div p{
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.start-now{
+    background-color: #8867BA;
+    border-radius: 30px;
 }
