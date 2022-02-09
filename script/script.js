@@ -30,7 +30,6 @@ menu.addEventListener("click",()=>{
 
 var checkScrollHeight=()=>{
     var top = body.getBoundingClientRect().top
-    alert(top)
     if(top >= -8){
         createAcc.style.display = "none"
     }else{
