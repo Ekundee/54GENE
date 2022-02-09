@@ -24,6 +24,7 @@ menu.addEventListener("click",()=>{
     setTimeout(() => {
         menu.style.display="none"
         closee.style.display="flex"
+        
     }, 550);
 })
 
