@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Salaam Swipe on Strikingly</title>
     <link rel="stylesheet" href="./styles/index.css">
+
+        <link rel="preconnect" media="screen" href="https://fonts.googleapis.com" crossorigin="true">
+    <style>#s-content.s-font-body-open-sans .s-font-body{font-family:"open sans",sans-serif}#s-content.s-font-title-bitter .s-font-title{font-family:bitter,georgia,serif}#s-content.s-font-heading-playfair-display .s-font-heading{font-family:"playfair display",serif}</style>
+    <link rel="preload" media="screen" href="https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Playfair+Display:400,700,400italic,700italic|Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic|Lato:300,400,700,300italic,400italic,700italic&amp;subset=latin,latin-ext" as="style">
+    <link rel="stylesheet" media="print" href="https://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Playfair+Display:400,700,400italic,700italic|Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic|Lato:300,400,700,300italic,400italic,700italic&amp;subset=latin,latin-ext" as="style" onload="this.media='all'">
+    <link rel="preload stylesheet" media="screen" href="https://static-assets.strikinglycdn.com/themes/app/main_v4.b24ddeec817e0087d649.bundle.css" as="style" type="text/css" onload="if(media!=='screen')media='screen'">
+    <link defer="true" href="https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,h_64,w_64/215374/appIcon-Favicon_mnpd7n.png" rel="shortcut icon" type="image/x-icon">
+    <meta content="Salaam Swipe on Strikingly" property="og:title">
 </head>
 <body>
     <div class="full-page">
         <div class="full_page">
 
-            <div class="responsiveHeader">
+            <div class="responsiveHeader" id="responsiveHeader">
                 <div class="responsiveHeaderHead">
-                    <p>X</p>
+                    <img src="./images/close.png" alt="" id="close" srcset="">
                 </div>
                 <div class="links">
                     <ul>
                         <a href=""><li class="app">App</li></a>
                         <a href="#aboutus"><li>Team</li></a>
-                        <a href=""><li>Learn More</li></a>
-                        <a href=""><li>Blog</li></a>
-                        <a href=""><li>Connect</li></a>
+                        <a href="#wantmore"><li>Learn More</li></a>
+                        <a href="#faq"><li>Blog</li></a>
+                        <a href="#connect"><li>Connect</li></a>
                     </ul>
                 </div>
                 <div class="responsiveHeaderFooter">
@@ -32,7 +40,10 @@
 
             
             <!-- header -->
-            <header class="header">
+            <header class="header" id="header">
+                <div class="menu" id="menu">
+                    <img src="./images/menu.png"/>
+                </div>
                 <div class="company-details">
                     <img src="./images/power icon.png" alt="" srcset="">
                     <p>It's time to change the way we <br> meet</p>
@@ -40,11 +51,11 @@
 
                 <div class="links">
                     <ul>
-                        <a href=""><li class="app">App</li></a>
+                        <a href="#"><li class="app">App</li></a>
                         <a href="#aboutus"><li>Team</li></a>
-                        <a href=""><li>Learn More</li></a>
-                        <a href=""><li>Blog</li></a>
-                        <a href=""><li>Connect</li></a>
+                        <a href="#wantmore"><li>Learn More</li></a>
+                        <a href="#faq"><li>Blog</li></a>
+                        <a href="#connect"><li>Connect</li></a>
                     </ul>
                 </div>
             </header>
@@ -54,7 +65,7 @@
 
 
             <!-- main -->
-            <main class="main">
+            <main class="main" id="main">
                 <div class="backgroundPic">
                     <div class="phone_pic">
                         <img src="./images/phone.webp" alt="">
@@ -91,7 +102,7 @@
 
                     <div style="width :60%; background-color: transparent; box-shadow: 0px 0px 1px 0.2px black; border-width: 2px; border-radius: 2000px;" ></div>
                  
-                    <div class="want-more">
+                    <div class="want-more" id="wantmore">
                         <p class="headerp ">Want to Learn More?</p>
                         <p>
                             Take a look at the articles written about us
@@ -102,7 +113,7 @@
                                 <img src="./images/aboutus1.png" alt="" srcset="">
                                 <div class="">
                                     <p class="want-more-text-header">
-                                        Vice Motherboard
+                                        <u>Vice Motherboard</u>
                                     </p>
                                     <p>
                                         "Salaam Swipe will allow young Muslims to reach out to potential mates without interference"
@@ -137,7 +148,7 @@
                     <div style="width :60%; background-color: transparent; box-shadow: 0px 0px 1px 0.2px black; border-width: 2px; border-radius: 2000px;" ></div>
 
 
-                    <div class="faqs">
+                    <div class="faqs" id="faq">
                         <p class="faqs-header">FAQs and Policies</p>
                         <div class="faqs-div">
                             <div class="questionsAsked">
@@ -154,7 +165,7 @@
 
                             <div class="questionsAsked">
                                 <p>
-                                    Terms of Use
+                                    Terms of Use                            
                                 </p>
                                 <p class="faq_dates">
                                     August 4, 2015
@@ -180,8 +191,8 @@
                 </div>
                 
                  
-                <div class="socials">
-                    <p>Connect With Us On:</p>
+                <div class="socials" id="connect">
+                    <p class="p">Connect With Us On:</p>
                     <div class="social-icons">
                         <div class="icon_div">
                             <img src="./images/facebook.png" alt="" srcset="">
@@ -197,11 +208,31 @@
                     </div>
                 </div>
 
-
+                <div style="width :60%; margin:auto; background-color: transparent; box-shadow: 0px 0px 1px 0.2px black; border-width: 2px; border-radius: 2000px;" ></div>
                 
+
+                <div class="conclusion" id="conclusion">
+                    <div class="images">
+                        <img src="./images/likes.png" alt="" srcset="">
+                        <img src="./images/tweet.png" alt="" srcset="">
+                    </div>
+
+                    <div class="copyright">
+                        <br><br>
+                        © Salaam Swipe 2014
+                        <br>
+                        All Rights Reserved
+                    </div>
+                </div>
 
 
             </main>
+
+            <div style="position: sticky; bottom: 0px; color: white; display: flex; margin: auto; width: 350px; padding:10px; border-radius: 10px; background-color: #5D3E8F;">
+                <select style="background-color:transparent; color: white; box-shadow: 1px 0px 1px 0px rgb(54, 53, 53); border: 0px; " name="" id=""></select>
+                &nbsp;&nbsp;&nbsp; <p>CREATE A SITE WITH</p> &nbsp;&nbsp;&nbsp;
+                <img style="position: relative;"src="./images/text2.svg" alt="" srcset="">
+            </div>
 
             <!-- footer -->
             <footer class="footer">
@@ -212,8 +243,9 @@
             </footer>
             
 
-
+            <script src="./script/script.js"></script>
         </div>
     </div>
 </body>
 </html>
+
