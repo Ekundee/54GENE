@@ -3,6 +3,9 @@ var responsiveHeader = document.getElementById("responsiveHeader")
 var menu = document.getElementById("menu")
 var header = document.getElementById("header")
 var main = document.getElementById("main")
+var body = document.getElementById("body")
+var full_page = document.getElementById("full_page")
+var createAcc = document.getElementById("createAcc")
 
 closee.addEventListener("click",()=>{
     responsiveHeader.style = "height:0px; transition : all .5s ease-in"
@@ -23,3 +26,12 @@ menu.addEventListener("click",()=>{
         closee.style.display="flex"
     }, 550);
 })
+
+var checkScrollHeight=()=>{
+    var top = body.getBoundingClientRect().top
+    if(top >= -8){
+        createAcc.style.display = "none"
+    }else{
+        createAcc.style.display = "flex"
+    }
+}

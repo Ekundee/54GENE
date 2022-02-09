@@ -5,6 +5,8 @@
       overflow-x: none;
 }
 
+
+
 .full-page{
     position: absolute;
     width: 100%;
@@ -17,7 +19,9 @@
     /* position: relative; */
     max-width: 1920px;
     margin: 0 auto;
-    height: 90px;
+    top: 0px;
+    height: max-content;
+
 }
 
 .responsiveHeader{
@@ -361,6 +365,10 @@
 
 .copyright{
     margin: auto;
+}
+
+.createAcc{
+    position: sticky; bottom: 0px; color: white; display: flex; margin: auto; width: 350px; padding:10px; border-radius: 10px; background-color: #5D3E8F;
 }
 
 @media (max-width: 920px) {
